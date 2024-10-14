@@ -4,7 +4,7 @@
 
 ### 1. Kiểm tra VPC và Subnets
 ##### Test Case 1: Kiểm tra VPC đã được tạo đúng cách
-```
+```sh
 aws ec2 describe-vpcs --vpc-ids vpc-xxxxxxxx
 ```
 **Mô tả:** Kiểm tra VPC với vpc-id tương ứng.
